@@ -1,0 +1,8 @@
+body {
+    background: rgb(112, 112, 255);
+}
+
+#gridContainer {
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    display: grid; grid-template-columns: repeat(16, auto);
+}
