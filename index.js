@@ -10,7 +10,7 @@ function createGrid(gridSize) {
         for(let x = 1; x <= gridSize; x++){ 
             let cell = document.createElement("div"); 
             cell.className = "gridsquare"; 
-            cell.innerText = (i * gridSize) + x;
+            // cell.innerText = (i * gridSize) + x;
             row.appendChild(cell); 
         } 
         container.appendChild(row); 
