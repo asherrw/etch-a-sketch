@@ -9,7 +9,6 @@ body {
 h1 {
     color: rgb(2, 76, 76);
     font-family: gill sans;
-    display: flex;
     padding-left: 100px;
 }
 input {
@@ -20,22 +19,7 @@ input {
 
 /* GRID STUFF */
 
-#gridContainer {
+.gridContainer {
     border: 4mm double rgb(2, 106, 106);
     display: grid; grid-template-columns: repeat(16, auto);
-    background-image: url(images/background-reef.jpeg);
-}
-
-.wrapper {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.row {
-    border-left: 0.5px solid rgb(2, 130, 130);
-}
-.cell {
-    border: 1px solid rgb(2, 130, 130);
-    padding: 15px;
 }

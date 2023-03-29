@@ -9,13 +9,22 @@
 </head>
 <body>
 
-<h1>The Most Sophisticated, High-Tech Drawing Device</h1>
-
-    <input type="button" onclick="wipeGrid" value="wipe"> 
-
-    <div class="wrapper">
-        <div id="gridContainer"></div>
+<div class="flex-wrapper">
+    <h1>The Most Sophisticated, High-Tech Drawing Device</h1>
+    <div class="content">
+        <div>
+            <input type="text" placeholder="Size of Board" value="16" onchange="changeGridSize(this.value)">
+            <button>Set Size</button>
+        </div>
+        <div class="gridContainer">
+        <div class="buttons"></div>
+            <input type="button" onclick="createGrid(16)" id="black" value="Black">
+            <input type="button" onclick="reset" id="reset" value="wipe"> 
+            <input type="button" onclick="createGridRainbow(16)" id="rainbow" value="Rainbow Stained Glass Mosaic Mode">
+            <input type="button" onclick="createGridGreen(16)" id="green" value="Green Goose">
+        </div>
     </div>
+</div>
 
 <script src="index.js"></script>
 </body>
