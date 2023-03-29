@@ -20,6 +20,8 @@ input {
 /* GRID STUFF */
 
 .gridContainer {
+    width: 500px;
+    height: 500px;
     border: 4mm double rgb(2, 106, 106);
-    display: grid; grid-template-columns: repeat(16, auto);
+    display: grid;
 }

@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="flex-wrapper">
-    <h1>The Most Sophisticated, High-Tech Drawing Device</h1>
-    <div class="content">
-        <div>
-            <input type="text" placeholder="Size of Board" value="16" onchange="changeGridSize(this.value)">
-            <button>Set Size</button>
-        </div>
-        <div class="gridContainer">
-        <div class="buttons"></div>
-            <input type="button" onclick="createGrid(16)" id="black" value="Black">
-            <input type="button" onclick="reset" id="reset" value="wipe"> 
-            <input type="button" onclick="createGridRainbow(16)" id="rainbow" value="Rainbow Stained Glass Mosaic Mode">
-            <input type="button" onclick="createGridGreen(16)" id="green" value="Green Goose">
+    <div class="flex-wrapper">
+        <h1>The Most Sophisticated, High-Tech Drawing Device</h1>
+        <div class="content">
+            <div>
+                <input type="text" placeholder="Size of Board" value="16" onchange="changeGridSize(this.value)">
+                <button>Set Size</button>
+            </div>
+            <div class="gridContainer"></div>
+            <div class="buttons">
+                <button onclick="changeColor('black')" id="black">black</button>
+                <button onclick="changeColor('red')" id="red">red</button>
+                <button onclick="changeColor('orange')" id="orange">orange</button>
+                <button onclick="changeColor('yellow')" id="yellow">yellow</button>
+                <button onclick="changeColor('green')" id="green">green</button>
+                <button onclick="changeColor('blue')" id="blue">blue</button>
+                <button onclick="changeColor('purple')" id="purple">purple</button>
+                <button onclick="changeColor('white')" id="rubber">rubber</button>
+                <button onclick="changeColor('rainbow')" id="rainbow">Stained Glass</button>
+                <button onclick="reset()">Reset</button>
+            </div>
         </div>
     </div>
-</div>
-
-<script src="index.js"></script>
 </body>
+<script src="index.js"></script>
 </html>
