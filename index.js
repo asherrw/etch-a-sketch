@@ -21,9 +21,9 @@ createGrid(16);
 // Change grid size
 function changeGridSize(input){
     if (input < 2) {
-        return console.log("That number is too low of a number you idiotic clownfish");
+        window.alert("That number is too low of a number you idiotic clownfish");
     } else if (input > 100) {
-        return console.log("That number is too high you absolute codfish");
+        window.alert("That number is too high you absolute codfish");
     } else {
     createGrid(input);
     }

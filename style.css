@@ -1,20 +1,76 @@
 body {
     background-color: indianred;
-    background-image: url(images/ocean.PNG);
+    background-image: url(images/fish.PNG);
     background-size: 100%;
 }
 h1 {
+    margin-top: 30px;
+    font-size: 40px;
     color: rgb(2, 76, 76);
-    font-family: gill sans;
-    padding-left: 100px;
+    font-family: 'Simplified Arabic';
+    display:flex;
+    justify-content: center;
 }
 button {
-    border-radius: 5px;
+    border-radius: 10px;
 }
-
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board-et-buttons {
+    display:flex;
+    flex-direction: row-reverse;
+    margin-right: 440px;
+}
+.buttons {
+    margin-top: 80px;
+    margin-right: 10px;
+    row-gap: 20px;
+    display:flex;
+    flex-direction: column;
+}
 .board {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 500px;
     height: 500px;
     border: 4mm double rgb(2, 106, 106);
     display: grid;
+}
+
+
+#black {
+    color:antiquewhite;
+    background-color: black;
+}
+#red {
+    color:rgb(45, 40, 34);
+    background-color: red;
+}
+#orange {
+    color:rgb(49, 47, 43);
+    background-color: orange;
+}
+#yellow {
+    color:rgb(47, 41, 34);
+    background-color: yellow;
+}
+#green {
+    color:antiquewhite;
+    background-color: green;
+}
+#blue {
+    color:antiquewhite;
+    background-color: blue;
+}
+#purple {
+    color:antiquewhite;
+    background-color: purple;
+}
+#random {
+    color:antiquewhite;
+    background-color:rgb(198, 158, 203)
 }
