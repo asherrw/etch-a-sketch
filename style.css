@@ -1,8 +1,5 @@
-
-/* MAIN DOCUMENT  */
-
 body {
-    background: rgb(112, 112, 255);
+    background-color: indianred;
     background-image: url(images/ocean.PNG);
     background-size: 100%;
 }
@@ -11,15 +8,11 @@ h1 {
     font-family: gill sans;
     padding-left: 100px;
 }
-input {
+button {
     border-radius: 5px;
 }
 
-
-
-/* GRID STUFF */
-
-.gridContainer {
+.board {
     width: 500px;
     height: 500px;
     border: 4mm double rgb(2, 106, 106);
